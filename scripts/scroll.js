@@ -24,7 +24,7 @@ newArray.forEach((element, index, array) => {
         const section = document.getElementById(id)
 
         if (section) {
-            console.log(section)
+            // console.log(section)
             seamless.elementScrollIntoView(section, {
                 behavior: 'smooth',
                 block: 'start'
